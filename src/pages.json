@@ -5,6 +5,12 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "login"
+			}
 		}
 	],
 	"globalStyle": {
@@ -12,5 +18,18 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
+	},
+	"subPackages": [
+		{
+			"root": "pages/login",
+			"pages": [
+				{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "login"
+					}
+				}
+			]
+		}
+	]
 }
